@@ -1,5 +1,11 @@
+# -*- coding: utf-8 -*- # NAME [quitar_secuencias.py]	Version [1.0]
+# AUTHOR  Hugo Castelan Sanchez 
+# CREATED (2022-12)
+# USAGE  python python remove_sequences.py input.fasta IDs.txt output.fasta
+# DESCRIPTION
+# Quitar secuencias de un multifata 
 
-#forma de uso python remove_sequences.py input.fasta IDs.txt output.fasta
+
 import sys
 from Bio import SeqIO
 
